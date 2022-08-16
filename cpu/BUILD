@@ -129,3 +129,15 @@ constraint_value(
     name = "riscv64",
     constraint_setting = ":cpu",
 )
+
+# Infineon tricore 1.6.2
+constraint_valuse(
+    name = "tricore162",
+    constraint_setting = ":cpu",
+)
+
+# Infineon tricore 1.8
+constraint_valuse(
+    name = "tricore18",
+    constraint_setting = ":cpu",
+)
